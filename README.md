@@ -17,3 +17,6 @@ before creating a store. Keep credentials and recovery files private.
 
 This tap is separate from homebrew-core. Report installation issues here;
 report security concerns through the [private contact form](https://vibecodestorage.com/contact.html?topic=security).
+
+Client 0.1.4 saves private pending creation requests for safe retries. New stores
+need a successful write within four hours; see the client README for recovery.
