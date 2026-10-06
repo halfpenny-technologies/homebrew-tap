@@ -6,9 +6,14 @@ vibecodestorage --help
 vibecodestorage init --json
 ```
 
-Client-only SDK and CLI release. No server source is included. Client 0.1.1 connects to the free pilot at
-https://vibecodestorage-api.onrender.com by default. Custom HTTPS and localhost
-endpoints can be selected with `init --endpoint URL`.
-Requires Node 24, installed by the formula. Billing is disabled in the prototype.
-Client license: UNLICENSED, all rights reserved. This tap is separate from
-homebrew-core. Report client install issues in this repository.
+Client-only JavaScript SDK and CLI, MIT licensed from version 0.1.3.
+[Client source, licence and tests](https://github.com/halfpenny-technologies/vibecodestorage-client).
+The API implementation stays private and is not included in the archive.
+
+Requires Node.js 24, installed by the formula. The default endpoint is
+https://api.vibecodestorage.com. Custom HTTPS or loopback endpoints can be set
+with `init --endpoint URL`. Read the [pilot terms](https://vibecodestorage.com/terms.html)
+before creating a store. Keep credentials and recovery files private.
+
+This tap is separate from homebrew-core. Report installation issues here;
+report security concerns through the [private contact form](https://vibecodestorage.com/contact.html?topic=security).
