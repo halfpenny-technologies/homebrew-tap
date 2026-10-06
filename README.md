@@ -1,7 +1,7 @@
 # VibeCodeStorage Homebrew tap
 
 ```sh
-brew install pauldodd123/tap/vibecodestorage
+brew install halfpenny-technologies/tap/vibecodestorage
 vibecodestorage --help
 vibecodestorage init --json
 ```
@@ -20,3 +20,16 @@ report security concerns through the [private contact form](https://vibecodestor
 
 Client 0.1.4 saves private pending creation requests for safe retries. New stores
 need a successful write within four hours; see the client README for recovery.
+
+Client 0.2.0 also includes the browser Auth preview SDK. Hosted Auth must be enabled separately; installing the CLI does not enable it.
+
+If you installed the old personal tap, migrate with:
+
+```sh
+brew update
+brew untap pauldodd123/tap
+brew tap halfpenny-technologies/tap
+brew upgrade halfpenny-technologies/tap/vibecodestorage
+```
+
+If Homebrew refuses to untap an installed formula, uninstall `vibecodestorage` first, then untap and install from the new tap. Keep your private credential files; never delete them as part of a package upgrade.
