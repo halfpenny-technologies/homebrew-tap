@@ -1,9 +1,9 @@
 class Vibecodestorage < Formula
   desc "Encrypted storage CLI for small apps and coding agents"
   homepage "https://github.com/halfpenny-technologies/vibecodestorage-client"
-  url "https://github.com/halfpenny-technologies/homebrew-tap/releases/download/v0.2.1/vibecodestorage-0.2.1.tgz"
-  version "0.2.1"
-  sha256 "fc73f139010971f32c615a228a7aa30ca6efb893d7620460e0185b3d297b1d01"
+  url "https://github.com/halfpenny-technologies/homebrew-tap/releases/download/v0.2.2/vibecodestorage-0.2.2.tgz"
+  version "0.2.2"
+  sha256 "93970a77a85c0b5529b970e4f9513aea0802aa98bacd238f440863d9ffb83cec"
   license "MIT"
 
   depends_on "node@24"
